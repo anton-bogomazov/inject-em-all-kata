@@ -1,0 +1,54 @@
+###
+
+# curl --location 'localhost:8080/api/v1/orders/suspicious'
+#--header 'Content-Type: text/plain'
+#--data '{
+#    "buyer": {
+#        "id": {
+#            "value": "c6687d3a-158e-449f-a1f5-d70a0d91a9a1"
+#        },
+#        "name": "Andrei Tarkovsky"
+#    },
+#    "products": [
+#        {
+#            "id": {
+#                "value": "c883a6af-8016-4b46-8ac5-e12e2a9855ef"
+#            },
+#            "name": "Honey"
+#        },
+#        {
+#            "id": {
+#                "value": "3b4cd116-a7c4-43e7-a990-cff62ba16161"
+#            },
+#            "name": "Bicycle"
+#        }
+#    ]
+#}'
+POST localhost:8080/api/v1/orders/suspicious
+Content-Type: text/plain
+
+{
+    "buyer": {
+        "id": {
+            "value": "c6687d3a-158e-449f-a1f5-d70a0d91a9a1"
+        },
+        "name": "Andrei Tarkovsky"
+    },
+    "products": [
+        {
+            "id": {
+                "value": "c883a6af-8016-4b46-8ac5-e12e2a9855ef"
+            },
+            "name": "Honey"
+        },
+        {
+            "id": {
+                "value": "3b4cd116-a7c4-43e7-a990-cff62ba16161"
+            },
+            "name": "Bicycle"
+        }
+    ]
+}
+
+###
+
