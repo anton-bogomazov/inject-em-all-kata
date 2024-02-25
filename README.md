@@ -2,6 +2,8 @@
 
 The purpose of this exercise is to dispel the magic of DI frameworks and grow understanding of Dependency Injection (DI) as a concept.
 
+## Important note: Please, do not use it as a good design example! The application is extremely over-engineered to demonstrate DI concepts!
+
 ### Why does it matter?
 Interfaces used as Seams between components allow us to implement Inversion of Control, one of the SOLID principles.
 IoC, in turn, enables control over the direction of dependencies between components of different importance and abstraction level.
