@@ -5,7 +5,7 @@ The purpose of this exercise is to dispel the magic of DI frameworks and grow un
 ## Important note: Please, do not use it as a good design example! The application is extremely over-engineered to demonstrate DI concepts!
 
 ### Why does it matter?
-Interfaces used as Seams between components allow us to implement Inversion of Control, one of the SOLID principles.
+Interfaces used as Seams between components allow us to implement Inversion of Control.
 IoC, in turn, enables control over the direction of dependencies between components of different importance and abstraction level.
 But since we are using interface dependencies, we need a way to provide an interface implementer to the components.
 That is where DI helps us! DI is a set of principles and patterns that allow us to resolve the dependency graph by instantiating appropriate interface implementers and managing their lifecycle.
